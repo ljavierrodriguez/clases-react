@@ -49,7 +49,7 @@ const Home = () => {
     const [errors, setErrors] = useState(false);
 
 
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [isAuthenticated, setIsAuthenticated] = useState(true);
 
 
     const login = e => {
